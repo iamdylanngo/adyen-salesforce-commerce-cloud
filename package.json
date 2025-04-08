@@ -20,7 +20,7 @@
     "build": "npm run transpile && npm run compile:js && npm run uploadCartridge",
     "test": "jest ./src",
     "test:watch": "jest ./src --watch",
-    "test:coverage": "jest ./src --coverage",
+    "coverage": "jest ./src --coverage",
     "test:coverageHTML": "jest ./src --coverage --coverageDirectory='coverage'",
     "check-build:sfra": "chmod 755 ./check-build.sh && sh ./check-build.sh SFRA",
     "check-branch-name": "chmod 755 ./branching.sh && sh ./branching.sh",
